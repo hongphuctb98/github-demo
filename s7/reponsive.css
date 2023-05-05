@@ -1,0 +1,97 @@
+@media screen and (max-width: 1024px) {
+  .main .header {
+    padding: 10px;
+  }
+
+  .content {
+    padding: 10px 30px;
+    max-width: 100vw;
+  }
+
+  .cards_list {
+    column-gap: 20px;
+  }
+
+  .card_item {
+    border: 1px solid #ccc;
+    padding: 0 15px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  .hotel {
+    font-size: 18px;
+  }
+
+  .checkin::after,
+  .checkin::before {
+    display: none;
+  }
+
+  .content_right .hotel_room {
+    color: #9c9c9c;
+    font-size: 16px;
+  }
+
+  .address {
+    font-size: 16;
+  }
+  .check {
+    font-size: 14px;
+  }
+
+  .check > div > span {
+    color: #4d4d4d;
+    font-size: 16px;
+  }
+
+  .guest p {
+    font-size: 16px;
+  }
+  .guest span {
+    font-size: 16px;
+  }
+
+  .details h2 {
+    font-size: 20px;
+  }
+
+  .details_list li {
+    font-size: 14px;
+  }
+
+  .report {
+    font-size: 14px;
+  }
+
+  .footer_item1 div {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .address {
+    font-size: 12px;
+  }
+  .card_item img {
+    width: 40px;
+  }
+
+  .subcribe_input button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .subcribe_input input {
+    font-size: 12px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .footer_item {
+    width: 30%;
+    margin-top: 10px;
+  }
+}
