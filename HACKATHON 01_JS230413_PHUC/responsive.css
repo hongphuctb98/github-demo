@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  header div {
+    font-size: 18px;
+  }
+
+  .item {
+    margin-top: 20px;
+  }
+
+  .item h1 {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  .item p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    background-image: url("./img/beach3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+    position: relative;
+  }
+
+  header div {
+    font-size: 8px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 5px;
+  }
+
+  .item {
+    flex-basis: 90%;
+    margin-top: 5px;
+    border-top: 4px solid rgba(243, 212, 35);
+  }
+
+  .item img {
+    width: 100%;
+  }
+
+  .item h1 {
+    font-size: 8px;
+    padding: 10px 0;
+  }
+  .item p {
+    font-size: 6px;
+  }
+}
